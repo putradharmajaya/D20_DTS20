@@ -1,1 +1,96 @@
+/* DO NOT EDIT */
+* {
+    box-sizing: border-box;
+}
 
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lucida Grande";
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    transition: all 0.5s;
+}
+
+a :hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+/* DO NOT EDIT */
+
+/* START HEADER STYLE */
+header {
+    background-image: url(assets/bg/bg-1.png);
+    height: 700px;
+    background-size: cover;
+}
+
+.navbar {
+    height: 64px;
+    width: 100%;
+    background-color: rgba(70, 130, 180, 0.7);
+    border-bottom: 5px solid whitesmoke;
+}
+
+.top-wrapper {}
+
+.header-left {
+    float: left;
+}
+
+.header-left img {
+    width: 100px;
+    margin: 7px 10px;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    float: left;
+}
+
+/* END HEADER STYLE */
+
+
+
+/* START CONTENT STYLE */
+
+/* END CONTENT STYLE */
+
+
+
+/* START FOOTER STYLE */
+
+/* END FOOTER STYLE */
