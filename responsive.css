@@ -1,7 +1,27 @@
 @media (max-width:1000px) {
-
+footer {
+     width: 100%;
+    }
+   .footer img {
+     width: 120px;
+   }
+    .footer-list {
+     padding-right:30px;
+   }
 }
 
 @media (max-width:670px) {
-    
+    .footer img {
+     width: 80px;
+     
+   }
+   .footer-list li {
+     font-size: 12px;
+     padding-top:5px;
+     padding-bottom: 5px;
+  
+   }
+   .footer-list {
+     padding-right:10px;
+   }
 }
