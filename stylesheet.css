@@ -47,7 +47,7 @@ a :hover {
 
 /* START HEADER STYLE */
 header {
-    background-image: url(top.png);
+    background-image: url(bg/bg-1.png);
     height: 700px;
     background-size: cover;
 }
