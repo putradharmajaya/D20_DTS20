@@ -1,4 +1,17 @@
 @media (max-width:1000px) {
+     
+/* START HEADER */
+     
+/* END HEADER */
+     
+     
+     
+/* START CONTENT */
+     
+/* END CONTENT */
+     
+     
+/* START FOOTER */
 footer {
      width: 100%;
     }
@@ -8,9 +21,25 @@ footer {
     .footer-list {
      padding-right:30px;
    }
+
+/* END FOOTER */
 }
 
 @media (max-width:670px) {
+
+/* START HEADER */
+     
+/* END HEADER */
+     
+     
+     
+/* START CONTENT */
+     
+/* END CONTENT */
+     
+     
+     
+/* START FOOTER */
     .footer img {
      width: 80px;
      
@@ -24,4 +53,5 @@ footer {
    .footer-list {
      padding-right:10px;
    }
+/* END FOOTER */
 }
