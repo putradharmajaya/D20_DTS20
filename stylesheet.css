@@ -47,9 +47,50 @@ a :hover {
 
 /* START HEADER STYLE */
 header {
-    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-    height: 700px;
+    width: 100%;
+    background-image: url(https://thumbs.dreamstime.com/b/free-download-vector-illustration-suitable-web-landing-page-wallpaper-background-banner-book-illustration-free-download-vector-170904071.jpg);
+    height: 620px;
     background-size: cover;
+    /* display: flex; */
+    flex: auto;
+}
+
+.top-title {
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.top-wrapper h1,
+h2,
+p {
+    color: rgb(22, 55, 82);
+    transition: all 1s;
+}
+
+.top-wrapper h1 {
+    font-size: 75px;
+    margin-bottom: -10px;
+}
+
+.top-wrapper h2 {
+    color: rgb(34, 84, 126);
+    font-size: 26px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.top-title p {
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+}
+
+.top-title h1:hover {
+    font-size: 90px;
+}
+
+.top-title h2:hover {
+    font-size: 35px;
 }
 
 .navbar {
@@ -57,28 +98,119 @@ header {
     width: 100%;
     background-color: rgba(70, 130, 180, 0.7);
     border-bottom: 5px solid whitesmoke;
+    position: fixed;
+    z-index: 10;
 }
-
-.top-wrapper {}
 
 .header-left {
     float: left;
+    flex: auto;
 }
 
-.header-left img {
-    width: 100px;
-    margin: 7px 10px;
+.header-left a {
+    line-height: 65px;
+    padding: 0 25px;
+    float: left;
 }
 
 .header-right {
     float: right;
     margin-right: -25px;
+    flex: auto;
 }
 
 .header-right a {
     line-height: 65px;
     padding: 0 25px;
     float: left;
+}
+
+.header-left img {
+    width: 100px;
+    padding: 0px 10px;
+    transition: all 1s;
+}
+
+.header-left img:hover {
+    width: 120px;
+}
+
+.top-wrapper {
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+.top-join {
+    flex-wrap: wrap;
+}
+
+.img-top {
+    float: left;
+}
+
+.img-top img {
+    width: 300px;
+    transition: all 1s;
+}
+
+.img-top img:hover {
+    width: 330px;
+}
+
+.btn-top {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+    padding: 15px 20px;
+    transition: all 1s;
+}
+
+.btn-top:hover {
+    width: 500px;
+    height: 320px;
+}
+
+.btns {
+    width: 100%;
+    display: inline-block;
+
+    padding: 20px 20px;
+    margin: 10px 0px;
+    border-radius: 25px;
+    box-shadow: 0px 7px lightslategrey;
+}
+
+.btns:hover {
+    font-size: 30px;
+
+}
+
+.btns:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.btn-top a {
+    font-size: 20px;
+}
+
+.btn-top span {
+    margin-right: 10px;
+}
+
+.fb {
+    background-color: royalblue;
+}
+
+.ig {
+    background-color: rgb(193, 53, 132);
+}
+
+
+.tw {
+    background-color: rgb(8, 160, 288);
 }
 
 /* END HEADER STYLE */
