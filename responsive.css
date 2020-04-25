@@ -52,16 +52,19 @@
      
      
 /* START FOOTER */
-footer {
-     width: 100%;
+.footer {
+    width: 100%;
+    padding-top:40px;
+    padding-right:0px;
+    padding-left:0px;
     }
-   .footer img {
-     width: 120px;
-   }
-    .footer-list {
-     padding-right:30px;
-   }
-
+    .logo-prg {
+        width:120px;
+    }
+    .logo-kmf {
+        width: 120px;
+        padding-right: 0px;
+    }
 /* END FOOTER */
 }
 
@@ -127,18 +130,18 @@ footer {
      
      
 /* START FOOTER */
-    .footer img {
-     width: 80px;
-     
-   }
-   .footer-list li {
-     font-size: 12px;
-     padding-top:5px;
-     padding-bottom: 5px;
-  
-   }
-   .footer-list {
-     padding-right:10px;
-   }
+   .footer {
+      width: 100%;
+      height:100px;
+      padding-top:30px;
+      padding-right:0px;
+      padding-left:0px;
+      }
+      .logo-prg {
+          width:70px;
+      }
+      .logo-kmf {
+          width: 70px;
+          padding-right: 0px;
 /* END FOOTER */
 }
