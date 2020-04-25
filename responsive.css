@@ -1,7 +1,47 @@
-@media (max-width:1000px) {
+@media (max-width:1024px) {
      
 /* START HEADER */
      
+.header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block !important;
+    }
+
+    .top-wrapper h1 {
+        font-size: 45px;
+    }
+
+    .top-wrapper h2 {
+        font-size: 20px;
+    }
+
+    .top-wrapper p {
+        font-size: 12px;
+    }
+
+    .top-wrapper h1:hover {
+        font-size: 50px;
+    }
+
+    .top-wrapper h2:hover {
+        font-size: 25px;
+    }
+
+    .img-top img {
+        width: 200px;
+    }
+
+    .img-top img:hover {
+        width: 230px;
+    }
+
+    .btn-page a,
+    .btn-top a {
+        font-size: 12px;
+    }
 /* END HEADER */
      
      
@@ -28,7 +68,54 @@ footer {
 @media (max-width:670px) {
 
 /* START HEADER */
-     
+.top-title {
+        text-align: left;
+    }
+
+    .top-wrapper h1 {
+        font-size: 45px;
+    }
+
+    .top-wrapper h2 {
+        font-size: 35px;
+    }
+
+    .top-wrapper p {
+        font-size: 20px;
+    }
+
+    .top-wrapper h1:hover {
+        font-size: 45px;
+    }
+
+    .top-wrapper h2:hover {
+        font-size: 35px;
+    }
+
+    .join {
+        width: 100%;
+        margin: 10px 5px;
+    }
+
+    .img-top img {
+        width: 200px;
+    }
+
+    .img-top img:hover {
+        width: 230px;
+    }
+
+    .btn-page a,
+    .btn-top a,
+    .join h2 {
+        font-size: 20px;
+    }
+
+    .top-wrapper h1,
+    h2,
+    p {
+        margin: 3px 0;
+    }
 /* END HEADER */
      
      
