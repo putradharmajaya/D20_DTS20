@@ -300,7 +300,7 @@ p {
     }
     .logo-kmf {
         width: 150px;
-        padding-right: 30px;
+        padding-right: 0px;
     }
     li {
         list-style: none;
@@ -312,7 +312,7 @@ p {
         float: right;
     }
     .footer-left a {
-      padding-left:300px;
+      padding-left:200px;
     }
     
 /* END FOOTER STYLE */
