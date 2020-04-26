@@ -65,6 +65,7 @@
         width: 120px;
         padding-right: 0px;
     }
+    
 /* END FOOTER */
 }
 
@@ -143,5 +144,11 @@
       .logo-kmf {
           width: 70px;
           padding-right: 0px;
+      }
+      
+      .footer-left a {
+        font-size: 10px;
+        padding-left:10px;
+    }
 /* END FOOTER */
 }
