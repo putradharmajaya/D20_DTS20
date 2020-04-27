@@ -137,6 +137,7 @@ p {
 .header-right a:hover {
     background-color: aqua;
     border-radius: 4px;
+    color: white;
 }
 
 .header-right {
