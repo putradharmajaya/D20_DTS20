@@ -47,7 +47,15 @@
      
      
 /* START CONTENT */
-     
+       .lessons {
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .container .lesson {
+    flex: auto;
+    width: 50%;
+  }
 /* END CONTENT */
      
 
@@ -147,7 +155,16 @@
      
      
 /* START CONTENT */
-     
+       .lessons {
+    flex-direction: column;
+    /* padding: 60px auto; */
+  }
+
+  .container .lesson {
+    width: 100%;
+    padding: 20px 0;
+    margin: 25px auto;
+  }
 /* END CONTENT */
      
 
