@@ -258,11 +258,11 @@ p {
 /* END HEADER STYLE */
 
 /* START CONTENT STYLE */
-.container {
+/* .container {
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
-}
+} */
 
 .container .lesson {
     width: 20%;
@@ -270,7 +270,7 @@ p {
 }
 
 .lesson-wrapper {
-    height: 500px;
+/*     height: 500px; */
     padding-bottom: 80px;
     background-color: #f7f7f7;
     text-align: center;
