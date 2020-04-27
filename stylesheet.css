@@ -27,14 +27,10 @@ body {
 a {
     /* display: block; */
     text-decoration: none;
-    color: white;
     transition: all 0.7s;
+    letter-spacing: 4px;
 }
 
-a:hover {
-    background-color: rgba(255, 255, 255, 0.7);
-    color: steelblue;
-}
 
 .container {
     width: 100%;
@@ -93,21 +89,22 @@ p {
     color: white;
 }
 
-.top-title h1:hover {
+/* .top-title h1:hover {
     font-size: 90px;
 }
 
 .top-title h2:hover {
     font-size: 35px;
-}
+} */
 
 .navbar {
-    /* height: 1164px; */
+    height: 80px;
     width: 100%;
-    background-image: linear-gradient(to right,
+    /* background-image: linear-gradient(to right,
             #9fb8ad 0%,
             #1fc8db 51%,
-            #2cb5e8 75%);
+            #2cb5e8 75%); */
+    background-color: white;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -119,11 +116,13 @@ p {
     font-size: 25px;
     padding: 21px 0;
     display: none !important;
+    text-align: center;
 }
 
 .header-left {
     float: left;
     flex: auto;
+    margin: 15px auto;
 }
 
 .header-left a {
@@ -131,10 +130,17 @@ p {
     margin: 0 5px;
     padding: 0 15px;
     float: left;
-    border-bottom: 2px solid whitesmoke;
+    color: black;
+    /* border-bottom: 2px solid whitesmoke; */
+}
+
+.header-right a:hover {
+    background-color: aqua;
+    border-radius: 4px;
 }
 
 .header-right {
+    margin: 8px auto;
     float: right;
     margin-right: -25px;
     flex: auto;
@@ -144,8 +150,9 @@ p {
     margin: 0px 5px;
     line-height: 65px;
     padding: 0 15px;
+    color: black;
     float: left;
-    border-bottom: 2px solid whitesmoke;
+    /* border-bottom: 2px solid whitesmoke; */
 }
 
 .header-left img {
@@ -164,6 +171,10 @@ p {
     flex-wrap: wrap;
 }
 
+.top-join a {
+    color: white;
+}
+
 .img-top {
     width: 30%;
 }
@@ -173,9 +184,9 @@ p {
     transition: all 1s;
 }
 
-.img-top img:hover {
+/* .img-top img:hover {
     width: 330px;
-}
+} */
 
 .join {
     margin: 0px 10px;
@@ -183,7 +194,6 @@ p {
 }
 
 .btn-top {
-
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 25px;
     padding: 15px 20px;
@@ -192,7 +202,6 @@ p {
 }
 
 .btn-page {
-
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 25px;
     padding: 15px 20px;
@@ -203,7 +212,6 @@ p {
 .btns {
     width: 100%;
     display: inline-block;
-
     padding: 20px 20px;
     margin: 10px 0px;
     border-radius: 25px;
@@ -249,83 +257,84 @@ p {
 
 /* END HEADER STYLE */
 
-
-
 /* START CONTENT STYLE */
 .container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container .lesson {
+    width: 20%;
+    margin-top: 12%;
 }
 
 .lesson-wrapper {
-  height: 500px;
-  padding-bottom: 80px;
-  background-color: #f7f7f7;
-  text-align: center;
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
 }
 
 .lesson {
-  float: left;
-  width: 25%;
+    float: left;
+    width: 25%;
 }
 
 .lesson-icon {
-  position: relative;
+    position: relative;
 }
 
 .lesson-icon p {
-  position: absolute;
-  top: 90px;
-  width: 100%;
-  color: white;
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
 
 /* END CONTENT STYLE */
 
-
-
 /* START ABOUT */
-     
+
 /* END ABOUT */
-
-
-
-/* START iNFO */
-     
-/* END iNFO */
-
-
 
 /* START FOOTER STYLE */
 .footer {
     width: 100%;
     height: 150px;
     background-color: #dfe6e9;
-    padding-top:40px;
-    padding-right:0px;
-    padding-left:0px;
-    pointer-events:none;
-    }
-    .logo-prg {
-        width:150px;
-    }
-    .logo-kmf {
-        width: 150px;
-        padding-right: 30px;
-    }
-    li {
-        list-style: none;
-    }
-    .footer-left {
-        float: left;
-    }
-    .footer-right  {
-        float: right;
-    }
-    .footer-left a {
-      padding-left:350px;
-      color: steelblue;
-    }
-    
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+    pointer-events: none;
+}
+
+.logo-prg {
+    width: 150px;
+}
+
+.logo-kmf {
+    width: 150px;
+    padding-right: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
+
+.footer-left a {
+    padding-left: 350px;
+    color: steelblue;
+}
+
 /* END FOOTER STYLE */
