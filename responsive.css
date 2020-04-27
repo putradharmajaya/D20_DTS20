@@ -66,18 +66,26 @@
      
      
 /* START FOOTER */
-.footer {
+     .footer {
     width: 100%;
-    padding-top:40px;
-    padding-right:0px;
-    padding-left:0px;
+    height:80px;
     }
+     
     .logo-prg {
-        width:120px;
+        width:110px;
     }
+     
     .logo-kmf {
-        width: 120px;
-        padding-right: 0px;
+        width: 110px;
+    }
+     
+    .footer-center {
+      padding-left:120px;
+      font-size:12px;
+    }
+     
+   .footer-center a {
+      letter-spacing:3px;
     }
     
 /* END FOOTER */
@@ -157,24 +165,21 @@
      
      
 /* START FOOTER */
-   .footer {
-      width: 100%;
-      height:100px;
-      padding-top:30px;
-      padding-right:0px;
-      padding-left:0px;
+     .footer {
+           width: 100%;
+           height:80px;
       }
       .logo-prg {
           width:70px;
       }
       .logo-kmf {
           width: 70px;
-          padding-right: 0px;
       }
-      
-      .footer-left a {
-        font-size: 10px;
-        padding-left:10px;
-    }
+      .footer-center {
+          padding-left:35px;
+          font-size:8px;
+      }
+      .footer-center a {
+          letter-spacing:2px;
 /* END FOOTER */
 }
